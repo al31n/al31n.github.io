@@ -57,7 +57,7 @@ Server: Docker Engine - Community
 
 &lt;p&gt;Adding build information into your Go application requires you to build your application with &lt;code&gt;-ldflags&lt;/code&gt; and appending it with &lt;code&gt;-X importpath.name=value&lt;/code&gt;. Values can only be strings.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve written up an example application. Be sure to clone this into your &lt;code&gt;$GOPATH/src/github.com/al31n/go-build-flag-example&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve written up an &lt;a href=&#34;https://github.com/al31n/go-build-flag-example.git&#34;&gt;example application&lt;/a&gt;. Be sure to clone this into your GOPATH.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ mkdir -p $GOPATH/src/github.com/al31n/go-build-flag-example
 $ cd $GOPATH/src/github.com/al31n/go-build-flag-example
